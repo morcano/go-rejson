@@ -7,7 +7,7 @@ import (
 
 	goredis "github.com/redis/go-redis/v9"
 
-	"github.com/nitishm/go-rejson/v4/rjs"
+	"github.com/morcano/go-rejson/v4/rjs"
 )
 
 // GoRedisClientConn - an abstracted interface for goredis.Client, goredis.ClusterClient, goredis.Ring,

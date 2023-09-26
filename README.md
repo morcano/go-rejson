@@ -4,7 +4,7 @@
 
 Go-ReJSON is a [Go](https://golang.org/) client for [ReJSON](https://github.com/RedisLabsModules/rejson) Redis Module.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/nitishm/go-rejson.svg)](https://pkg.go.dev/github.com/nitishm/go-rejson/v4)
+[![Go Reference](https://pkg.go.dev/badge/github.com/nitishm/go-rejson.svg)](https://pkg.go.dev/github.com/morcano/go-rejson/v4)
 ![test](https://github.com/nitishm/go-rejson/workflows/test/badge.svg)
 ![code-analysis](https://github.com/nitishm/go-rejson/workflows/code-analysis/badge.svg)
 [![codecov](https://coveralls.io/repos/github/nitishm/go-rejson/badge.svg?branch=master)](https://coveralls.io/github/nitishm/go-rejson?branch=master)
@@ -32,7 +32,7 @@ clients is hearty welcome.
 
 ## Installation
 
-    go get github.com/nitishm/go-rejson/v4
+    go get github.com/morcano/go-rejson/v4
 
 ## Example usage
 
@@ -46,7 +46,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nitishm/go-rejson/v4"
+	"github.com/morcano/go-rejson/v4"
 	goredis "github.com/go-redis/redis/v8"
 	"github.com/gomodule/redigo/redis"
 )

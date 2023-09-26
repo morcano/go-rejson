@@ -1,7 +1,7 @@
 package rejson
 
 import (
-	"github.com/nitishm/go-rejson/v4/rjs"
+	"github.com/morcano/go-rejson/v4/rjs"
 )
 
 type Handler struct {
@@ -11,6 +11,10 @@ type Handler struct {
 
 func NewReJSONHandler() *Handler {
 	return &Handler{clientName: rjs.ClientInactive}
+}
+
+func (r *Handler) SetImplementation(implementation ReJSON) {
+	r.implementation = implementation
 }
 
 // ReJSON provides an interface for various Go Redis Clients to implement ReJSON commands

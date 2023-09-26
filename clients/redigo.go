@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nitishm/go-rejson/v4/rjs"
+	"github.com/morcano/go-rejson/v4/rjs"
 )
 
 // RedigoClientConn - an abstracted interface for redigo.Conn and redigo.ConnWithTimeout

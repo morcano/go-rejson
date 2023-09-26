@@ -3,11 +3,11 @@ package rejson
 import (
 	"context"
 	"encoding/json"
-	"github.com/nitishm/go-rejson/v4/clients"
+	"github.com/morcano/go-rejson/v4/clients"
 	"reflect"
 	"testing"
 
-	"github.com/nitishm/go-rejson/v4/rjs"
+	"github.com/morcano/go-rejson/v4/rjs"
 
 	redigo "github.com/gomodule/redigo/redis"
 	goredis "github.com/redis/go-redis/v9"
